@@ -1,0 +1,148 @@
+@media (max-width:576.99px){
+    /* header part start */
+    .section-h1 {
+        font-size: 40px;
+    }
+    .section-h2 {
+        font-size: 30px;
+    }
+    .section-h4 {
+        font-size: 25px;
+    }
+    .header-banner {
+       flex-direction: column-reverse;
+       row-gap: 20px;
+       padding: 10px 0;
+    }
+    /* header part end */
+    /* mission part start */
+    #mission {
+        margin: 44px 0;
+    }
+    .mission-container {
+        row-gap: 35px;
+    }
+    .mission-container .mission-content {
+        grid-template-columns: 1fr;
+    }
+    .mission-content .mission-card{
+        max-width: 400px;
+    }
+    /* mission part end */
+       /* documentation part start  */
+       .documentation-container {
+        row-gap: 35px;
+    }
+       .documentation-content {
+        flex-direction: column;
+         gap: 30px;
+     }
+     .documentation-image .overly {
+       display: none;
+    }
+    .documentation-content .documentation-image .img {
+       width: 100%;
+       height: auto;
+    }
+     .documentation-container .documentation-content:nth-child(2) {
+        flex-direction: column;
+    }
+     /* documentation part end */
+     /* application part start */
+     #application {
+        margin: 39px 0;
+    }
+    .application-container {
+       row-gap: 70px;
+    }
+   .application-content {
+	grid-template-columns: 1fr;
+}
+     /* application part end */
+
+}
+@media (min-width:577px) and (max-width:767.99px){
+    .section-h1 {
+        font-size: 35px;
+    }
+    .section-h2 {
+        font-size: 30px;
+    }
+    .header-banner {
+       padding: 10px 0;
+    }
+   .header-banner .banner-text{
+    padding-top: 58px;
+   }
+   /* header part end */
+    /* mission part start */
+    #mission {
+        margin: 35px 0;
+    }
+    .mission-container {
+      row-gap: 40px;
+    }
+      .mission-container .mission-content {
+        grid-template-columns: 1fr;
+    }
+    .mission-content .mission-card{
+        max-width: 400px;
+    }
+    /* mission part end */
+        /* documentation part start  */
+        .documentation-container {
+        row-gap: 35px;
+    }
+        .documentation-content {
+        flex-direction: column;
+            gap: 30px;
+        }
+        .documentation-image .overly {
+        display: none;
+    }
+    .documentation-content .documentation-image .img {
+        width: 100%;
+        height: auto;
+    }
+        .documentation-container .documentation-content:nth-child(2) {
+        flex-direction: column;
+    }
+    /* documentation part end */
+    #application {
+        margin: 39px 0;
+    }
+    .application-container {
+       row-gap: 70px;
+   }
+    /* application part start */
+}
+@media (min-width:768px) and (max-width:991.99px){
+    .section-h1 {
+        font-size: 45px;
+    }
+    .section-h2 {
+        font-size: 30px;
+    }
+    .header-banner{
+        padding: 0;
+    }
+    .header-banner .banner-text{
+        padding-top: 58px;
+   }
+   /* mission part start */
+   .mission-container {
+	row-gap: 39px;
+}
+   .mission-container .mission-content {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.mission-content .mission-card{
+    max-width: 350px;
+}
+.mission-content .mission-card:nth-child(1){
+    grid-column: span 2;
+}
+   /* mission part end */
+}
+
